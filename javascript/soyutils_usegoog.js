@@ -1696,6 +1696,7 @@ soy.$$changeNewlineToBr = function(value) {
  * @return {string|!soydata.SanitizedHtml} The string including word
  *     breaks. If {@code value} is SanitizedHtml, the return value
  *     is also SanitizedHtml, of the same known directionality.
+ * @suppress {deprecated}
  */
 soy.$$insertWordBreaks = function(value, maxCharsBetweenWordBreaks) {
   var result = goog.format.insertWordBreaks(
